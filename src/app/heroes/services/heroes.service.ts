@@ -2,7 +2,7 @@ import { Injectable, Pipe } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, catchError, of, map } from 'rxjs';
 import { Hero } from '../interfaces/hero.interface';
-import { environments } from 'src/environments/environments';
+import { environments } from 'src/environment/environments';
 import { query } from '@angular/animations';
 
 @Injectable({providedIn: 'root'})
