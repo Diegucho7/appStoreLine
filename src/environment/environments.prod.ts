@@ -1,5 +1,5 @@
  export const environments = {
-     baseUrl: 'diego-velarde.com'
+     baseUrl: 'appStoreLine'
  }
 
 // export const environment = {
