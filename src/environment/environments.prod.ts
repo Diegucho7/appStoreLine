@@ -1,5 +1,5 @@
  export const environments = {
-     baseUrl: 'appStoreLine'
+     baseUrl: 'https://diegucho7.github.io/appStoreLine'
  }
 
 // export const environment = {
