@@ -18,8 +18,8 @@
           {{hero.superhero}}
           
         </mat-option>
-        <mat-card >
-          
+        <mat-card *ngIf="heroes.length < 0">
+          <mat-card-header  *ngFor="let hero of heroes" >{{hero.characters}}</mat-card-header>
           <mat-card-content>
             <p>
             </p>
