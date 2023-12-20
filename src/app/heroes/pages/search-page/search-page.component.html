@@ -16,7 +16,20 @@
     
         <mat-option *ngFor="let hero of heroes" [value]="hero">
           {{hero.superhero}}
+          
         </mat-option>
+        <mat-card >
+          
+          <mat-card-content>
+            <p>
+            </p>
+          </mat-card-content>
+          <mat-card-actions>
+            <button mat-button>LIKE</button>
+            <button mat-button>SHARE</button>
+          </mat-card-actions>
+
+        </mat-card>
 
         <mat-option
         *ngIf="heroes.length === 0 && searchInput.value && searchInput.value.length > 0"
